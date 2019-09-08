@@ -22,4 +22,14 @@ The player can expand their city when they have enough money to do so, and the a
 | Large  | 100 | 100  | 100 |
 | Medium  | 50 | 50  | 50 |
 | Large  | 25 | 25  | 25 |
+
 For simplicity, the time to build is set at 0
+
+These are all relative values between the highest value 100 and the zero-value 0. The recurring cost of each structure is a function of its cost to build.
+
+## MVP
+An application that implements the features of the game above on a simple GUI.  The most important part is implementing the game logic, so I will suggest that we do this on a text-based format before tackling a GUI.
+
+## Technology Stack Choices
+**MongoDB.** For storing game state because it is open-source and NoSQL which will make it flexible-enough for our needs, and we can use it for free at our scale
+**Game engine.** I have identified two open-source game engines that we can decide between: Corona and Cocos 2D-X.  Cocos 2D-X is completely cross-platform, so it can be used on mobile, web, or desktop, and Corona is cross-platform for mobile environments, though we will be focusing on one over the course of development.
