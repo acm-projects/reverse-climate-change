@@ -10,26 +10,47 @@ The player can expand their city when they have enough money to do so, and the a
 
 | Power Plant  | Cost to build | Time to build | Carbon footprint |
 | ------------- | ------------- | ------------- | ------------- |
-| Coal  | 45 | 20  | 100 |
-| Natural Gas  | 50 | 20  | 75 |
-| Nuclear  | 45 | 60  | 20 |
-| Solar  | 100 | 75  | 0 |
-| Wind  | 75 | 75  | 0 |
+| Coal | 45 | 20  | 100 |
+| Natural Gas | 50 | 20  | 75 |
+| Nuclear | 45 | 60  | 20 |
+| Solar | 100 | 75  | 0 |
+| Wind | 75 | 75  | 0 |
 | Hydroelectric (must be built on water) | 40 | 100  | 0 |
 
 | Metropolis  | Cost to build | Max. Citizens | Carbon footprint |
 | ------------- | ------------- | ------------- | ------------- |
-| Large  | 100 | 100  | 100 |
-| Medium  | 50 | 50  | 50 |
-| Large  | 25 | 25  | 25 |
+| Large | 100 | 100  | 100 |
+| Medium | 50 | 50  | 50 |
+| Small | 25 | 25  | 25 |
 
 For simplicity, the time to build is set at 0
 
 These are all relative values between the highest value 100 and the zero-value 0. The recurring cost of each structure is a function of its cost to build.
 
 ## MVP
-An application that implements the features of the game above on a simple GUI.  The most important part is implementing the game logic, so I will suggest that we do this on a text-based format before tackling a GUI.
+An application that implements the features of the game above on a simple GUI.  The most important part is implementing the game logic, so I will suggest that we do this on a primarily text-based format before tackling a GUI.
 
 ## Technology Stack Choices
-**MongoDB.** For storing game state because it is open-source and NoSQL which will make it flexible-enough for our needs, and we can use it for free at our scale
-**Game engine.** I have identified two open-source game engines that we can decide between: Corona and Cocos 2D-X.  Cocos 2D-X is completely cross-platform, so it can be used on mobile, web, or desktop, and Corona is cross-platform for mobile environments, though we will be focusing on one over the course of development.
+[*MongoDB.*](https://www.mongodb.com/cloud/atlas) For storing game state because it is open-source and NoSQL which will make it flexible-enough for our needs, and we can use it for free at our scale.
+
+*Game engine.* I have identified two open-source game engines that we can decide between: [Corona](https://coronalabs.com/) and [Cocos 2D-X](https://cocos2d-x.org/).  Cocos 2D-X is completely cross-platform, so it can be used on mobile, web, or desktop, and Corona is cross-platform for mobile environments, though we will be focusing on one over the course of development.
+
+| | Corona | Cocos 2D-X |
+| ------------- | ------------- | ------------- |
+| Open-source  | Yes | Yes  |
+| Dedicated IDE | No | Yes  | 
+| Dedicated simulator | Yes | Yes |
+| Javascript support | No | Yes |
+| Lua support | Yes | Yes |
+
+*Assets.* The art is a super fun part of building a game, but I think it will be helpful to have a few places to go to look for sprites so that does not take up too much time. This [pack](https://devilsworkshop.itch.io/big-pixel-isometric-block-pack-free-2d-sprites) or this [pack](https://mewki.itch.io/25-isometric-blocks) might be good for the tiles in the game.
+
+## Prerequisite Software
+Cocos Creator (for Cocos 2D-X), a favorite text editor (my personal favorite is [Atom](http://atom.io) but Visual Studio Code is also very good), and everyone’s best friend, Git!
+
+## Future Extensions
+For post-MVP, we could add different types of metropolises or some kind of zoning system à la SimCity.
+
+## Inspiration games
+*City2048.* A beautiful isometric 2D game that inspires my vision of the graphics.
+*SimCity.* One of my favorite games ever, inspired the content of Reverse Climate Change!
