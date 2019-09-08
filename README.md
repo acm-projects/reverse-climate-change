@@ -16,3 +16,10 @@ The player can expand their city when they have enough money to do so, and the a
 | Solar  | 100 | 75  | 0 |
 | Wind  | 75 | 75  | 0 |
 | Hydroelectric (must be built on water) | 40 | 100  | 0 |
+
+| Metropolis  | Cost to build | Max. Citizens | Carbon footprint |
+| ------------- | ------------- | ------------- | ------------- |
+| Large  | 100 | 100  | 100 |
+| Medium  | 50 | 50  | 50 |
+| Large  | 25 | 25  | 25 |
+For simplicity, the time to build is set at 0
