@@ -50,6 +50,8 @@ Cocos Creator (for Cocos 2D-X), a favorite text editor (my personal favorite is 
 
 ## Future Extensions
 For post-MVP, we could add different types of metropolises or some kind of zoning system à la SimCity.
+Add upgrade options for power plants in efficiency and carbon footprint
+Add population expansion for the metropolises
 
 ## Inspiration games
 *City2048.* A beautiful isometric 2D game that inspires my vision of the graphics.
