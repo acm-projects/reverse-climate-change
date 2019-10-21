@@ -56,3 +56,23 @@ Add population expansion for the metropolises
 ## Inspiration games
 *City2048.* A beautiful isometric 2D game that inspires my vision of the graphics.
 *SimCity.* One of my favorite games ever, inspired the content of Reverse Climate Change!
+
+# Git Workflow
+## When starting a project
+1. Download [Git](https://git-scm.com/download)
+1. Go to [the repository](https://github.com/acm-projects/reverse-climate-change), and find "Clone or Download," and copy that link
+1. Go to a directory on your system
+1. Open a terminal in that directory
+1. Run `git clone <URL you copied>`
+1. Run `cd <Project directory name>`
+## When working on a project
+1. Go to the directory from the previous instructions
+1. Open a terminal in that directory
+1. Run `git checkout <branch>` or `git checkout -b <branch>` to start a new branch
+> NEVER DEVELOP ON THE MASTER BRANCH
+1. Run `git pull`
+1. If there are merge conflicts, got to "When resolving merge conflicts"
+1. Make your changes
+1. Run `git add <files you want to commit>` or `git add --all` to commit all changed files
+1. Run `git commit -m <descriptive commit message>`
+1. Run `git push` or if there is an error, copy the command given
