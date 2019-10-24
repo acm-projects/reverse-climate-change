@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "isometric_0014",
+    "texture": "f259cb33-4c12-41ff-a4cf-00fa9b9abfae",
+    "atlas": "",
+    "rect": [
+      72,
+      13,
+      864,
+      997
+    ],
+    "offset": [
+      -8,
+      0.5
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

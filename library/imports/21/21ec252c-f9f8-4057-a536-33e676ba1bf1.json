@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smog-intense",
+    "texture": "1f43257e-7b79-4673-8bff-9f2427ec565c",
+    "atlas": "",
+    "rect": [
+      197,
+      24,
+      682,
+      673
+    ],
+    "offset": [
+      -2,
+      179.5
+    ],
+    "originalSize": [
+      1080,
+      1080
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

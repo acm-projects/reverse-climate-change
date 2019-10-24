@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "city-medium-density",
+    "texture": "8c0631a1-8484-4d5c-9575-9d7d566e091f",
+    "atlas": "",
+    "rect": [
+      227,
+      318,
+      623,
+      762
+    ],
+    "offset": [
+      -1.5,
+      -159
+    ],
+    "originalSize": [
+      1080,
+      1080
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
