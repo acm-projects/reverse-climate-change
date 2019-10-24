@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "060d0fb9-e5c7-48c0-8a44-281785a85cc2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "buildingTiles_073": {
+      "ver": "1.0.4",
+      "uuid": "a1ca7c8e-ed76-487a-85d1-4fbd401b618d",
+      "rawTextureUuid": "060d0fb9-e5c7-48c0-8a44-281785a85cc2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 99,
+      "height": 60,
+      "rawWidth": 99,
+      "rawHeight": 60,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

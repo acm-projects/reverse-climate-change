@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "buildingTiles_030",
+    "texture": "191dc1be-9d09-4c5a-befb-71a357a0abcf",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      133,
+      127
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      133,
+      127
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

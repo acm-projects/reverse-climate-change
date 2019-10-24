@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "city-high-density",
+    "texture": "f40becc4-d5ae-485d-9a88-12b2c2232943",
+    "atlas": "",
+    "rect": [
+      227,
+      276,
+      623,
+      804
+    ],
+    "offset": [
+      -1.5,
+      -138
+    ],
+    "originalSize": [
+      1080,
+      1080
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
