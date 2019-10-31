@@ -25,30 +25,31 @@ cc.Class({
     },
 
     // Game.js 
-    // Game.js 
-     onLoad: function () 
-     {
-         // initialize money
-         this.money = 1; 
- 
-     },
- 
-     // update (dt) {},
- 
-     gainMoney: function () 
-     {
-         this.money +=1; 
-         // update the words of the moneyDisplay Label
-         while (this.money >= 1)
-         {
-            this.money++; 
-            this.moneyDisplay.string = "$" + this.money; 
-         }
-         
-       
-         setInterval(gainMoney, 1000);
-     },
-     
- 
- });
+    onLoad: function () 
+    {
+        // initialize money
+        this.money = 0; 
 
+    },
+
+    // update (dt) {},
+
+    gainMoney: function () 
+    {
+        this.money +=1; 
+        // update the words of the moneyDisplay Label
+        this.moneyDisplay.string = "$" + this.money; 
+
+    },
+
+    autoClicker: function()
+    {
+        if (this.money > 1)
+        {
+            this.money = this.money + 1; 
+            this.moneyDisplay.string = "$" + this.money;
+        }
+        
+    setInterval(autoClicker, 1000);
+    }
+});

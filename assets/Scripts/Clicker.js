@@ -29,39 +29,24 @@ cc.Class({
     {
         // initialize money
         this.money = 0; 
-        this.moneyRate = 5; 
 
     },
 
-    update (dt) {
-
-    },
-
-    getMoney: function()
-    {
-        return this.money;
-    },
+    // update (dt) {},
 
     gainMoney: function () 
     {
         this.money +=1; 
         // update the words of the moneyDisplay Label
         //this.moneyDisplay.string = "$" + this.money; 
-       //while (this.money < 10)
-       //{
-         //  this.moneyDisplay.string = "$" + this.money;
-           //this.money++;  
-       //}
+       while (this.money < 10)
+       {
+           this.money++; 
+           this.moneyDisplay.string = "$" + this.money; 
+       }
         
+        //setInterval(gainMoney, 1000);
     },
-
-    autoClicker: function()
-    {
-        setInterval(gainMoney, 1000);
-    },
-
-    setMoneyRate: function(moneyRate){
-        this.moneyRate = moneyRate; 
-    }
+    
 
 });
