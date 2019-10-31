@@ -1,4 +1,4 @@
-// Learn cc.Class:
+/// Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
 //  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/class.html
 // Learn Attribute:
@@ -61,3 +61,32 @@ cc.Class({
         this.moneyDisplay.string = '$' + this.money;
     },
 });
+
+//cc.sys.localStorage.setItem('gainMoney', JSON.stringify(gainMoney));
+//var userData = JSON.parse(cc.sys.localStorage.getItem('gainMoney'));
+
+var HelloWorldLayer = cc.Label.extend({
+    ctor:function () {
+        //////////////////////////////
+        // 1. super init first
+        this._super();
+                                      
+        cc.sys.localStorage.setItem( JSON.stringify( "gainMoney" ), JSON.stringify( this.money ) );
+        
+        var value = JSON.parse( cc.sys.localStorage.getItem( JSON.stringify( "gainMoney" ) ) );
+                                      
+        cc.log( value );
+                                      
+        return true;
+    },
+});
+
+var HelloWorldScene = cc.moneyDisplay.extend({
+    onEnter:function () {
+        this._super();
+        var layer = new HelloWorldLayer();
+        this.addChild(layer);
+    }
+});
+
+Editor.Ipc.sendToPanel('try one', 'scene:stash-and-save');
