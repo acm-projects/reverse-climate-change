@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
-      "y": 23,
-      "width": 1440,
-      "height": 828,
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 840,
       "layout": {
         "children": [
           {
@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 350.515625,
+                "height": 457.6499938964844,
                 "type": "panel",
-                "width": 230
+                "width": 237.0124969482422
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 394.46875,
+                "height": 261.95001220703125,
                 "type": "panel",
-                "width": 230
+                "width": 237.0124969482422
               }
             ],
-            "height": 747,
+            "height": 721.6000366210938,
             "type": "dock-v",
-            "width": 230
+            "width": 237.0124969482422
           },
           {
             "children": [
@@ -43,9 +43,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 394.46875,
+                "height": 444.01251220703125,
                 "type": "panel",
-                "width": 864
+                "width": 925.8624877929688
               },
               {
                 "active": 0,
@@ -54,14 +54,14 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 350.515625,
+                "height": 275.5874938964844,
                 "type": "panel",
-                "width": 864
+                "width": 925.8624877929688
               }
             ],
-            "height": 747,
+            "height": 721.6000366210938,
             "type": "dock-v",
-            "width": 864
+            "width": 925.8624877929688
           },
           {
             "active": 0,
@@ -69,9 +69,9 @@
               "inspector",
               "cocos-services"
             ],
-            "height": 747,
+            "height": 721.6000366210938,
             "type": "panel",
-            "width": 342
+            "width": 369.13751220703125
           }
         ],
         "type": "dock-h"
@@ -89,17 +89,11 @@
     }
   },
   "panels": {
-    "preferences": {
-      "x": 0,
-      "y": 0,
-      "width": 1440,
-      "height": 900
-    },
-    "package-asset.import": {
-      "x": 470,
-      "y": 150,
-      "width": 504,
-      "height": 558
+    "project-settings": {
+      "x": 468,
+      "y": 128,
+      "width": 604,
+      "height": 568
     }
   }
 }

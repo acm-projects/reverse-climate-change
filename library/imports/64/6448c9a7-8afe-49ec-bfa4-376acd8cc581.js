@@ -15,24 +15,24 @@ cc._RF.push(module, '6448cmniv5J7L+kN2rNjMWB', 'LowCity');
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
-   extends: cc.Component,
+    extends: cc.Component,
 
-   properties: {
-      // The carbon footprint of the city
-      carbonFootprint: 0,
+    properties: {
+        // The carbon footprint of the city
+        carbonFootprint: 0,
 
-      // The max citizens the city can have
-      maxCitizens: 0,
+        // The max citizens the city can have
+        maxCitizens: 0,
 
-      // The city's cost to build:
-      costToBuild: 0
-   },
+        // The city's cost to build:
+        costToBuild: 0
+    },
 
-   // LIFE-CYCLE CALLBACKS:
+    // LIFE-CYCLE CALLBACKS:
 
-   // onLoad () {},
+    // onLoad () {},
 
-   start: function start() {}
+    start: function start() {}
 }
 
 // update (dt) {},

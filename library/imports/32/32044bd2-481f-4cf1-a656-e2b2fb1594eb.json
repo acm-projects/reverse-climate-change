@@ -67,18 +67,16 @@
       "y": 1,
       "z": 1
     },
-    "_rotationX": 0,
-    "_rotationY": 0,
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 35,
     "groupIndex": 0,
     "_id": "",
     "_eulerAngles": {
+      "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0,
-      "__type__": "cc.Vec3"
+      "z": 0
     }
   },
   {
@@ -139,18 +137,16 @@
       "y": 1,
       "z": 1
     },
-    "_rotationX": 0,
-    "_rotationY": 0,
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 0,
     "groupIndex": 0,
     "_id": "",
     "_eulerAngles": {
+      "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0,
-      "__type__": "cc.Vec3"
+      "z": 0
     }
   },
   {
@@ -201,18 +197,16 @@
       "y": 1,
       "z": 1
     },
-    "_rotationX": 0,
-    "_rotationY": 0,
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 0,
     "groupIndex": 0,
     "_id": "",
     "_eulerAngles": {
+      "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0,
-      "__type__": "cc.Vec3"
+      "z": 0
     }
   },
   {
@@ -348,18 +342,16 @@
       "y": 1,
       "z": 1
     },
-    "_rotationX": 0,
-    "_rotationY": 0,
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 0,
     "groupIndex": 0,
     "_id": "",
     "_eulerAngles": {
+      "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0,
-      "__type__": "cc.Vec3"
+      "z": 0
     }
   },
   {
@@ -414,18 +406,16 @@
       "y": 1,
       "z": 1
     },
-    "_rotationX": 0,
-    "_rotationY": 0,
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 0,
     "groupIndex": 0,
     "_id": "",
     "_eulerAngles": {
+      "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0,
-      "__type__": "cc.Vec3"
+      "z": 0
     }
   },
   {
@@ -504,18 +494,16 @@
       "y": 1,
       "z": 1
     },
-    "_rotationX": 0,
-    "_rotationY": 0,
     "_skewX": 0,
     "_skewY": 0,
     "_localZOrder": 0,
     "groupIndex": 0,
     "_id": "",
     "_eulerAngles": {
+      "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0,
-      "__type__": "cc.Vec3"
+      "z": 0
     }
   },
   {

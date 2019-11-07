@@ -7,7 +7,7 @@ cc.Class({
 
     // use this for initialization
     onLoad() {
-    this.node.opacity = 160;
+    this.node.opacity = 255;
     
     this.node.on('touchstart',function(){
         this.opactiy = 255;
@@ -24,7 +24,19 @@ cc.Class({
     
     
     this.node.on('touchend', function(){
-        this.opacity = 160;
+        this.anchorX = 0;
+        this.anchorY = 0;
+        this.opacity = 255;
+        if(this.x%43.6!=0){     
+             this.x = this.x-(this.x%43.6);        
+            console.log(this.x);
+        }
+        if(this.y%20.42!=0){
+             this.y = this.y-(this.y%20.42);
+            console.log(this.y);
+            console.log("fuck");
+        }
+            
     },this.node);
     
     },
