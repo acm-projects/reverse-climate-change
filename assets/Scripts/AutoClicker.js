@@ -1,55 +1,50 @@
+
+
 cc.Class({
     extends: cc.Component,
 
-    properties: 
-    {
-     
-        
-        housy: cc.button, 
-
-        // reference for money label
-        moneyDisplay:
-        {
-            default: null,
-            type: cc.Label
-        }
+    properties: {
+        moneyRate: 0.5,
+    
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-
-    start () 
-    {
-
+    onLoad () {
+        cc.sys.localStorage.getItem()
+        //Check if money key exist
+        // If not set at 0
     },
 
+    //start: function start() {},
     // Game.js 
-    onLoad: function () 
-    {
-        // initialize money
-        this.money = 0; 
+    //onLoad: function onLoad() {},
 
-    },
+    //gainMoney: function gainMoney() {
+    //    this.money = cc.sys.localStorage.getItem("money");
+    //    this.money += this.moneyRate;
+    //    cc.sys.localStorage.setItem("money", this.money);
+    //},
 
-    // update (dt) {},
-
-    gainMoney: function () 
-    {
-        this.money +=1; 
-        // update the words of the moneyDisplay Label
-        this.moneyDisplay.string = "$" + this.money; 
-
-    },
-
-    autoClicker: function()
-    {
-        if (this.money > 1)
+    update: function update(dt) {
+        var money = cc.sys.localStorage.getItem("money");
+        console.log (money);
+        money = parseFloat(money);
+        if (isNaN(money))
         {
-            this.money = this.money + 1; 
-            this.moneyDisplay.string = "$" + this.money;
+            cc.sys.localStorage.setItem("money", 0);
         }
-        
-    setInterval(autoClicker, 1000);
+        else 
+        {
+            money += this.moneyRate;
+            cc.sys.localStorage.setItem("money", money);
+        }
+
+    },
+
+    setMoneyRate: function setMoneyRate(moneyRate) {
+        this.moneyRate = moneyRate;
     }
+
 });
+
