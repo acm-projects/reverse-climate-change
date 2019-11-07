@@ -1,6 +1,8 @@
 {
   "user": {
-    "name": "User",
-    "prefab": []
+    "classify": [],
+    "modify": true,
+    "name": "user",
+    "title": "Custom Nodes"
   }
 }
