@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "city-low-density",
+    "texture": "5513dc14-a606-425c-bcef-5610b5c41d02",
+    "atlas": "",
+    "rect": [
+      227,
+      331,
+      623,
+      749
+    ],
+    "offset": [
+      -1.5,
+      -165.5
+    ],
+    "originalSize": [
+      1080,
+      1080
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
