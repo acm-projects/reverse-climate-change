@@ -445,7 +445,7 @@
     "relativePath": "Prefabs\\Low_city copy.prefab"
   },
   "e2c5d353-be2d-4808-95d6-19e7fbc2ae8e": {
-    "asset": 1573094843329,
+    "asset": 1573096357048,
     "meta": 1571881666756,
     "relativePath": "Scripts"
   },
@@ -544,11 +544,6 @@
     "meta": 1573094942518,
     "relativePath": "Scripts\\Btn_script.js"
   },
-  "1b40efbf-20e2-4e2e-9953-f07d9f5a1020": {
-    "asset": 1573094333854,
-    "meta": 1573094942531,
-    "relativePath": "Scripts\\Clicker.js"
-  },
   "c0f11d83-ebf3-4415-aab6-5334acd0e024": {
     "asset": 1573094333855,
     "meta": 1573094942542,
@@ -598,5 +593,10 @@
     "asset": 1573095313481,
     "meta": 1573095316269,
     "relativePath": "Scripts\\newland.ts"
+  },
+  "1b40efbf-20e2-4e2e-9953-f07d9f5a1020": {
+    "asset": 1573096357048,
+    "meta": 1573096376547,
+    "relativePath": "Scripts\\Clicker.js"
   }
 }

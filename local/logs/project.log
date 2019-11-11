@@ -1,0 +1,94 @@
+2019-11-07T03:13:00.549Z - normal: Load ~/.CocosCreator/settings.json
+2019-11-07T03:13:01.689Z - normal: Initializing Asset Database
+2019-11-07T03:13:01.691Z - normal: checking language setting...
+2019-11-07T03:13:01.691Z - normal: Language: en
+2019-11-07T03:13:02.351Z - success: preview server running at http://localhost:7456
+2019-11-07T03:13:02.354Z - success: protocol editor-framework registered
+2019-11-07T03:13:02.354Z - success: protocol app registered
+2019-11-07T03:13:02.354Z - success: protocol theme registered
+2019-11-07T03:13:02.354Z - success: protocol packages registered
+2019-11-07T03:13:02.354Z - success: protocol uuid registerred
+2019-11-07T03:13:02.354Z - success: protocol db registerred
+2019-11-07T03:13:02.354Z - success: protocol thumbnail registerred
+2019-11-07T03:13:02.354Z - success: protocol unpack registerred
+2019-11-07T03:13:02.354Z - success: protocol disable-commonjs registerred
+2019-11-07T03:13:04.084Z - normal: connected!
+2019-11-07T03:13:04.085Z - normal: Check project C:\Users\enriq\reverse-climate-change
+2019-11-07T03:13:04.088Z - normal: Initializing project C:\Users\enriq\reverse-climate-change
+2019-11-07T03:13:04.593Z - normal: Initializing Cocos2d
+2019-11-07T03:13:05.428Z - normal: Initializing engine extends
+2019-11-07T03:13:05.445Z - success: alipay-adapter loaded
+2019-11-07T03:13:05.449Z - success: asset-db-debugger loaded
+2019-11-07T03:13:05.450Z - success: baidu-adapter loaded
+2019-11-07T03:13:05.451Z - success: color-picker loaded
+2019-11-07T03:13:05.571Z - success: fb-audience-network loaded
+2019-11-07T03:13:05.626Z - success: fb-live-stream loaded
+2019-11-07T03:13:05.630Z - success: google-play-instant loaded
+2019-11-07T03:13:05.635Z - success: huawei-runtime loaded
+2019-11-07T03:13:05.857Z - success: cpk-publish loaded
+2019-11-07T03:13:05.858Z - success: jsb-adapter loaded
+2019-11-07T03:13:05.863Z - success: oppo-runtime loaded
+2019-11-07T03:13:05.866Z - success: package-manager loaded
+2019-11-07T03:13:05.983Z - success: qqplay-adapter loaded
+2019-11-07T03:13:05.985Z - success: runtime-dev-tools loaded
+2019-11-07T03:13:05.989Z - success: sdkbox loaded
+2019-11-07T03:13:05.992Z - success: tester loaded
+2019-11-07T03:13:05.994Z - success: ui-kit-preview-extra loaded
+2019-11-07T03:13:05.996Z - success: ui-kit-preview loaded
+2019-11-07T03:13:05.998Z - success: ui-kit loaded
+2019-11-07T03:13:06.004Z - success: vivo-runtime loaded
+2019-11-07T03:13:06.005Z - success: weapp-adapter loaded
+2019-11-07T03:13:06.006Z - success: xiaomi-adapter loaded
+2019-11-07T03:13:06.009Z - success: alipay-minigame loaded
+2019-11-07T03:13:06.054Z - success: assets loaded
+2019-11-07T03:13:06.056Z - success: builder loaded
+2019-11-07T03:13:06.313Z - success: cocos-services loaded
+2019-11-07T03:13:06.323Z - success: console loaded
+2019-11-07T03:13:06.358Z - success: fb-instant-games loaded
+2019-11-07T03:13:06.362Z - success: game-window loaded
+2019-11-07T03:13:06.367Z - success: google-instant-games loaded
+2019-11-07T03:13:06.375Z - success: hierarchy loaded
+2019-11-07T03:13:06.381Z - success: inspector loaded
+2019-11-07T03:13:06.385Z - success: keystore loaded
+2019-11-07T03:13:06.392Z - success: node-library loaded
+2019-11-07T03:13:06.399Z - success: package-asset loaded
+2019-11-07T03:13:06.410Z - success: preferences loaded
+2019-11-07T03:13:06.412Z - success: project-exporter loaded
+2019-11-07T03:13:06.414Z - success: project-importer loaded
+2019-11-07T03:13:06.417Z - success: project-settings loaded
+2019-11-07T03:13:06.420Z - success: scene loaded
+2019-11-07T03:13:06.422Z - success: simulator-debugger loaded
+2019-11-07T03:13:06.423Z - success: sprite-editor loaded
+2019-11-07T03:13:06.426Z - success: store loaded
+2019-11-07T03:13:06.430Z - success: timeline loaded
+2019-11-07T03:13:06.434Z - success: xiaomi-runtime loaded
+2019-11-07T03:13:08.148Z - normal: Loading packages
+2019-11-07T03:13:08.155Z - normal: Watching packages
+2019-11-07T03:13:08.769Z - normal: Run Application
+2019-11-07T03:13:11.494Z - info: Cocos Services load base data!
+2019-11-07T03:13:15.664Z - warn: Please specifiy a default value for "NewClass" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 label
+2019-11-07T03:13:15.664Z - warn: Please do not specifiy "default" attribute in decorator of "text" property in "NewClass" class.  
+Default value must be initialized at their declaration:
+ 
+// Before:
+@property({
+  type: cc.Integer
+  default: 0  // <--
+})
+value;
+// After:
+@property({
+  type: cc.Integer
+})
+value = 0;    // <--
+2019-11-07T06:30:17.078Z - error: Window "main" crashed: [object Object]
+    at WebContents.nativeWin.webContents.on.e (C:\CocosCreator_2.1.3\resources\app.asar\editor-framework\lib\main\window.js:1:2613)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)

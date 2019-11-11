@@ -37,6 +37,9 @@ const {ccclass, property} = cc._decorator;
         	this.node.addChild(newNode6);
         	this.node.addChild(newNode7);
         	cc.sys.localStorage.setItem('side', 4);
+
+          var savedTiles = cc.sys.localStorage.getItem("tiles");
+          
         }
         else if(cc.sys.localStorage.getItem('side') == 4)
         {
@@ -166,7 +169,7 @@ const {ccclass, property} = cc._decorator;
         }	
        	else if(cc.sys.localStorage.getItem('side') == 7)
         {
-        	// Instantiate new side nodes for new length of 7
+        	// Instantiate new side nodes for new length of 8
         	let newNode41 = cc.instantiate(this.prefab);
         	let newNode42 = cc.instantiate(this.prefab);
         	let newNode43 = cc.instantiate(this.prefab);
