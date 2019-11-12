@@ -29,7 +29,7 @@
         "__id__": 23
       },
       {
-        "__id__": 30
+        "__id__": 50
       }
     ],
     "_active": false,
@@ -254,6 +254,9 @@
     "_level": 1,
     "_components": [
       {
+        "__id__": 6
+      },
+      {
         "__id__": 7
       }
     ],
@@ -273,8 +276,8 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
+      "x": 2.920337706153412,
+      "y": -0.4958762697336204
     },
     "_position": {
       "__type__": "cc.Vec3",
@@ -284,9 +287,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
+      "x": 0.2,
+      "y": 0.2,
+      "z": 0.2
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
@@ -305,7 +308,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 6
+      "__id__": 5
     },
     "_enabled": true,
     "_cullingMask": 4294967295,
@@ -453,7 +456,7 @@
     "_name": "Land_button",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1
+      "__id__": 2
     },
     "_children": [
       {
@@ -522,10 +525,13 @@
     },
     "_children": [],
     "_active": true,
-    "_level": 0,
+    "_level": 2,
     "_components": [
       {
-        "__id__": 13
+        "__id__": 15
+      },
+      {
+        "__id__": 16
       }
     ],
     "_prefab": null,
@@ -576,7 +582,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 12
+      "__id__": 14
     },
     "_enabled": true,
     "_materials": [
@@ -654,7 +660,7 @@
     "_name": "Grass",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1
+      "__id__": 2
     },
     "_children": [],
     "_active": true,
@@ -715,7 +721,7 @@
   },
   {
     "__type__": "cc.Sprite",
-    "_name": "",
+    "_name": "isometric_9 copy<Sprite>",
     "_objFlags": 0,
     "node": {
       "__id__": 16
@@ -773,7 +779,7 @@
     "_name": "NewScript",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1
+      "__id__": 2
     },
     "_children": [],
     "_active": true,
@@ -882,12 +888,10 @@
       "b": 255,
       "a": 255
     },
-    "hoverColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100.00000000000004,
+      "height": 40
     },
     "_N$disabledColor": {
       "__type__": "cc.Color",
