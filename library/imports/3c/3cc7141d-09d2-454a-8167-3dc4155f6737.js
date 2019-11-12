@@ -1,18 +1,8 @@
 "use strict";
-cc._RF.push(module, '3cc71QdCdJFSoFnPcQVX2c3', 'MedCity');
-// Scripts/MedCity.js
+cc._RF.push(module, '3cc71QdCdJFSoFnPcQVX2c3', 'City');
+// Scripts/City.js
 
 "use strict";
-
-// Learn cc.Class:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 cc.Class({
     extends: cc.Component,
@@ -22,20 +12,33 @@ cc.Class({
         carbonFootprint: 0,
 
         // The max citizens the city can have
-        maxCitizens: 0,
+        maxMoneyRate: 0,
+
+        moneyRate: 1,
 
         // The city's cost to build:
-        costToBuild: 0
+        costToBuild: 0,
+
+        // The max citizens each city can hold
+        highDenseCity: 100,
+
+        medDenseCity: 50,
+
+        smallDenseCity: 25
+
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
 
-    start: function start() {}
+    start: function start() {},
+    update: function update(dt) {
+        // Make an instance of AutoClicker with the current Money Rate
+    }
 }
 
-// update (dt) {},
+// Make a getter for moneyRate and maxMoneyRate
 );
 
 cc._RF.pop();

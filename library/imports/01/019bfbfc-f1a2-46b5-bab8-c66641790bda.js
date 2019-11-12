@@ -8,52 +8,44 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        moneyRate: 0.5
 
-        housy: cc.button,
-
-        // reference for money label
-        moneyDisplay: {
-            default: null,
-            type: cc.Label
-        }
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
-
-    start: function start() {},
-
-
-    // Game.js 
-    // Game.js 
     onLoad: function onLoad() {
-        // initialize money
-        this.money = 1;
+        cc.sys.localStorage.getItem();
+        //Check if money key exist
+        // If not set at 0
     },
 
-    // update (dt) {},
 
-    gainMoney: function (_gainMoney) {
-        function gainMoney() {
-            return _gainMoney.apply(this, arguments);
+    //start: function start() {},
+    // Game.js 
+    //onLoad: function onLoad() {},
+
+    //gainMoney: function gainMoney() {
+    //    this.money = cc.sys.localStorage.getItem("money");
+    //    this.money += this.moneyRate;
+    //    cc.sys.localStorage.setItem("money", this.money);
+    //},
+
+    update: function update(dt) {
+        var money = cc.sys.localStorage.getItem("money");
+        console.log(money);
+        money = parseFloat(money);
+        if (isNaN(money)) {
+            cc.sys.localStorage.setItem("money", 0);
+        } else {
+            money += this.moneyRate;
+            cc.sys.localStorage.setItem("money", money);
         }
+    },
 
-        gainMoney.toString = function () {
-            return _gainMoney.toString();
-        };
-
-        return gainMoney;
-    }(function () {
-        this.money += 1;
-        // update the words of the moneyDisplay Label
-        while (this.money >= 1) {
-            this.money++;
-            this.moneyDisplay.string = "$" + this.money;
-        }
-
-        setInterval(gainMoney, 1000);
-    })
+    setMoneyRate: function setMoneyRate(moneyRate) {
+        this.moneyRate = moneyRate;
+    }
 
 });
 

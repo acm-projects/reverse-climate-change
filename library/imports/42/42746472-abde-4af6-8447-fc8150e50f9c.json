@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wavy",
+    "texture": "adc8904b-b626-472c-a778-5727acb14b7e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      491,
+      338
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      491,
+      338
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

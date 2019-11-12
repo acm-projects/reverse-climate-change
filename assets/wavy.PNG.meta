@@ -1,18 +1,16 @@
 {
-  "ver": "2.3.3",
-  "uuid": "ba247793-8e7d-424b-9ac2-b5cd788c3f66",
+  "ver": "2.3.1",
+  "uuid": "adc8904b-b626-472c-a778-5727acb14b7e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
-  "genMipmaps": false,
-  "packable": true,
   "platformSettings": {},
   "subMetas": {
     "wavy": {
       "ver": "1.0.4",
-      "uuid": "4a20b72d-b389-46fc-bf4a-cd1b6b15eba0",
-      "rawTextureUuid": "ba247793-8e7d-424b-9ac2-b5cd788c3f66",
+      "uuid": "42746472-abde-4af6-8447-fc8150e50f9c",
+      "rawTextureUuid": "adc8904b-b626-472c-a778-5727acb14b7e",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
