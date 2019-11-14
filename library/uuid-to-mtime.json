@@ -420,7 +420,7 @@
     "relativePath": "model/primitives.fbx"
   },
   "963fa21e-fed2-4079-a63d-9a7b7c56e025": {
-    "asset": 1572487634000,
+    "asset": 1573629415000,
     "meta": 1572487634000,
     "relativePath": "Sprites"
   },
@@ -439,124 +439,144 @@
     "meta": 1572489388000,
     "relativePath": "Sprites/buildingTiles_073.png"
   },
-  "8592a87d-4916-4a7b-9b04-1e2ef16e41ff": {
-    "asset": 1572654389000,
-    "meta": 1572654389000,
-    "relativePath": "try one.fire"
-  },
   "f259cb33-4c12-41ff-a4cf-00fa9b9abfae": {
     "asset": 1572487634000,
     "meta": 1572489389000,
     "relativePath": "Sprites/isometric_0014.png"
   },
   "2d97e85a-0407-4922-82aa-4d17a7edc737": {
-    "asset": 1572651432000,
-    "meta": 1572487634000,
+    "asset": 1573694560000,
+    "meta": 1573097959000,
     "relativePath": "Scripts"
   },
   "cab1aca6-0eae-40bb-9d2d-217a6b947571": {
-    "asset": 1572487634000,
-    "meta": 1572489389000,
+    "asset": 1573097959000,
+    "meta": 1573098353000,
     "relativePath": "Sprites/smog-light.png"
   },
   "11654a2a-39c7-4c26-9b3f-409fcd5e69bf": {
-    "asset": 1572487634000,
-    "meta": 1572489389000,
+    "asset": 1573097960000,
+    "meta": 1573098353000,
     "relativePath": "Sprites/smog-medium.png"
   },
   "1f43257e-7b79-4673-8bff-9f2427ec565c": {
-    "asset": 1572487634000,
-    "meta": 1572489389000,
+    "asset": 1573097959000,
+    "meta": 1573098353000,
     "relativePath": "Sprites/smog-intense.png"
   },
   "fe783ae2-c749-4c20-939b-80191d477168": {
-    "asset": 1572487634000,
-    "meta": 1572489389000,
+    "asset": 1573097959000,
+    "meta": 1573098353000,
     "relativePath": "Sprites/grass.png"
   },
   "8c0631a1-8484-4d5c-9575-9d7d566e091f": {
-    "asset": 1572487634000,
-    "meta": 1572489389000,
+    "asset": 1573097959000,
+    "meta": 1573098353000,
     "relativePath": "Sprites/city-medium-density.png"
   },
   "6078df0a-273e-48df-a30a-617fc8a40d78": {
-    "asset": 1572487634000,
-    "meta": 1572489388000,
+    "asset": 1573097959000,
+    "meta": 1573098353000,
     "relativePath": "Sprites/city-low-density.png"
   },
   "f40becc4-d5ae-485d-9a88-12b2c2232943": {
-    "asset": 1572487634000,
-    "meta": 1572489388000,
+    "asset": 1573097959000,
+    "meta": 1573098353000,
     "relativePath": "Sprites/city-high-density.png"
   },
   "5513dc14-a606-425c-bcef-5610b5c41d02": {
-    "asset": 1572486474000,
-    "meta": 1572489388000,
+    "asset": 1573097960000,
+    "meta": 1573098352000,
     "relativePath": "city-low-density.png"
   },
   "b99218b4-65b8-45c8-82b3-05ec6bfe721d": {
-    "asset": 1572486474000,
-    "meta": 1572489388000,
+    "asset": 1573097960000,
+    "meta": 1573098352000,
     "relativePath": "city-high-density.png"
   },
   "4b539719-9f54-451a-a729-d19b28726ae2": {
-    "asset": 1572486474000,
-    "meta": 1572489388000,
+    "asset": 1573097960000,
+    "meta": 1573098352000,
     "relativePath": "grass.png"
   },
   "b40587a0-fc5a-4a27-a7ed-fc170839c85b": {
-    "asset": 1572486474000,
-    "meta": 1572489388000,
+    "asset": 1573097960000,
+    "meta": 1573098352000,
     "relativePath": "city-medium-density.png"
   },
   "ad18d12c-176b-47b7-87e2-41f29ed367f3": {
-    "asset": 1572489170000,
+    "asset": 1573097959000,
     "meta": 1572489170000,
     "relativePath": "Prefabs"
   },
   "9f732d39-f1fd-4c9a-9f01-1752a86af338": {
     "asset": 1572489388000,
-    "meta": 1572489388000,
+    "meta": 1573098352000,
     "relativePath": "Prefabs/grassPrefab.prefab"
   },
   "3675cca2-e199-43fb-b943-b1ad62319a92": {
-    "asset": 1572486474000,
-    "meta": 1572489388000,
+    "asset": 1573097960000,
+    "meta": 1573098353000,
     "relativePath": "smog-intense.png"
   },
   "984add91-a44e-4149-a477-4707f6399eab": {
-    "asset": 1572486474000,
-    "meta": 1572489388000,
+    "asset": 1573097960000,
+    "meta": 1573098353000,
     "relativePath": "smog-light.png"
   },
   "8f743f63-5f63-40a3-843d-7b61189f93a3": {
-    "asset": 1572486474000,
-    "meta": 1572489388000,
+    "asset": 1573097960000,
+    "meta": 1573098353000,
     "relativePath": "smog-medium.png"
   },
   "adc8904b-b626-472c-a778-5727acb14b7e": {
     "asset": 1572489170000,
-    "meta": 1572489389000,
+    "meta": 1573098353000,
     "relativePath": "wavy.PNG"
   },
-  "adcb13dc-1014-44ed-9b29-04cb1d7d8eae": {
-    "asset": 1572489874000,
-    "meta": 1572489388000,
-    "relativePath": "Scripts/moneyCarbFoot.js"
-  },
   "3cc7141d-09d2-454a-8167-3dc4155f6737": {
-    "asset": 1572654742000,
-    "meta": 1572667562000,
+    "asset": 1573154989000,
+    "meta": 1573098352000,
     "relativePath": "Scripts/City.js"
   },
-  "d735ebe0-0a58-4b40-a5de-4a682ed7275b": {
-    "asset": 1572653743000,
-    "meta": 1572653747000,
-    "relativePath": "Scripts/moneyLabel.js"
+  "8d390b1c-6af1-4597-849d-ed5da19f017c": {
+    "asset": 1573097967000,
+    "meta": 1573098352000,
+    "relativePath": "Scripts/Clicker.js"
+  },
+  "70103c7b-af90-4f0c-afd3-99ccc2327fbc": {
+    "asset": 1573627944000,
+    "meta": 1573627954000,
+    "relativePath": "Scripts/RestartScore.js"
+  },
+  "a1fc1c06-9c98-4eff-84f4-4faae0a5be33": {
+    "asset": 1573629415000,
+    "meta": 1573629416000,
+    "relativePath": "Sprites/power-plant-wind.png"
+  },
+  "5ba60d20-e967-465b-ad2c-b2cff2db85b9": {
+    "asset": 1573693350000,
+    "meta": 1573693358000,
+    "relativePath": "Scripts/energyoutputLabel.js"
+  },
+  "31f66162-960b-4be2-8a92-4a88ebf9f298": {
+    "asset": 1573693988000,
+    "meta": 1573694538000,
+    "relativePath": "Scripts/Powerplant.js"
+  },
+  "8592a87d-4916-4a7b-9b04-1e2ef16e41ff": {
+    "asset": 1573701794000,
+    "meta": 1573701794000,
+    "relativePath": "try one.fire"
   },
   "019bfbfc-f1a2-46b5-bab8-c66641790bda": {
-    "asset": 1573094919000,
-    "meta": 1573094924000,
+    "asset": 1573701659000,
+    "meta": 1573701660000,
     "relativePath": "Scripts/AutoClicker.js"
+  },
+  "d735ebe0-0a58-4b40-a5de-4a682ed7275b": {
+    "asset": 1573701763000,
+    "meta": 1573701766000,
+    "relativePath": "Scripts/moneyLabel.js"
   }
 }

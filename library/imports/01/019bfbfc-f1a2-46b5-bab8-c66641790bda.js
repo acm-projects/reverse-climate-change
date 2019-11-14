@@ -8,7 +8,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        moneyRate: 0.5
+        moneyRate: 0
 
     },
 
@@ -16,20 +16,10 @@ cc.Class({
 
     onLoad: function onLoad() {
         cc.sys.localStorage.getItem();
-        //Check if money key exist
+        //Check if money key exists
         // If not set at 0
     },
 
-
-    //start: function start() {},
-    // Game.js 
-    //onLoad: function onLoad() {},
-
-    //gainMoney: function gainMoney() {
-    //    this.money = cc.sys.localStorage.getItem("money");
-    //    this.money += this.moneyRate;
-    //    cc.sys.localStorage.setItem("money", this.money);
-    //},
 
     update: function update(dt) {
         var money = cc.sys.localStorage.getItem("money");

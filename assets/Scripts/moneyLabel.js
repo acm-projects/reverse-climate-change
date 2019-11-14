@@ -29,6 +29,9 @@ cc.Class({
     },
 
     update (dt) {
-        this.node.getComponent(cc.Label).string = "$" + cc.sys.localStorage.getItem("money");
+        
+        var money = cc.sys.localStorage.getItem("money");
+        
+        this.node.getComponent(cc.Label).string = "$" + Math.round(money);
     },
 });

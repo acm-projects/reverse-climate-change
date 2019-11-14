@@ -11,26 +11,28 @@
 cc.Class({
     extends: cc.Component,
 
-    properties: {
+    properties: 
+    {
+
+        restart: cc.button
 
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        this.money = 0;
-        this.CarbFoot = 0;
-        this.currentCarbonFootprint;
+        cc.sys.localStorage.getItem()
+        var money = cc.sys.localStorage.getItem("money");
+        this.restart.node.on('click', this.callback, this);
     },
 
-    //start () {
-    //},
-
-    inverse: function(currentCarbonFootprint)
-
+    callback: function (restart)
     {
-        var delta = 
-    },
+        money = 0; 
+        
+
+    }
+    //start () {},
 
     // update (dt) {},
 });

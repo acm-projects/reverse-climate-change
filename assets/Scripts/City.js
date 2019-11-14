@@ -11,6 +11,8 @@ cc.Class({
         maxMoneyRate: 0,
 
 
+        energyNeed: ,
+        
         moneyRate: 1,
 
         // The city's cost to build:
