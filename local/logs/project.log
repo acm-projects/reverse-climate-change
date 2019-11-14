@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2019-11-14T03:00:45.595Z - normal: Load ~/.CocosCreator/settings.json
 2019-11-14T03:00:46.791Z - normal: Initializing Asset Database
 2019-11-14T03:00:46.799Z - normal: checking language setting...
@@ -126,3 +127,91 @@ Missing uuid: "c97647a4-43aa-4bfd-83d4-e582134b02a7"
     at C:\CocosCreator_2.1.3\resources\engine\bin\.cache\dev\cocos2d\core\platform\utils.js:49:25
     at _combinedTickCallback (internal/process/next_tick.js:73:7)
     at process._tickCallback (internal/process/next_tick.js:104:9)
+=======
+2019-11-14T02:56:57.887Z - normal: Load ~/.CocosCreator/settings.json
+2019-11-14T02:56:59.037Z - normal: Initializing Asset Database
+2019-11-14T02:56:59.039Z - normal: checking language setting...
+2019-11-14T02:56:59.039Z - normal: Language: en
+2019-11-14T02:56:59.712Z - success: preview server running at http://localhost:7456
+2019-11-14T02:56:59.714Z - success: protocol editor-framework registered
+2019-11-14T02:56:59.714Z - success: protocol app registered
+2019-11-14T02:56:59.714Z - success: protocol theme registered
+2019-11-14T02:56:59.715Z - success: protocol packages registered
+2019-11-14T02:56:59.715Z - success: protocol uuid registerred
+2019-11-14T02:56:59.715Z - success: protocol db registerred
+2019-11-14T02:56:59.715Z - success: protocol thumbnail registerred
+2019-11-14T02:56:59.715Z - success: protocol unpack registerred
+2019-11-14T02:56:59.715Z - success: protocol disable-commonjs registerred
+2019-11-14T02:57:00.659Z - normal: connected!
+2019-11-14T02:57:00.661Z - normal: Check project C:\Users\enriq\reverse-climate-change
+2019-11-14T02:57:00.663Z - normal: Initializing project C:\Users\enriq\reverse-climate-change
+2019-11-14T02:57:01.171Z - normal: Initializing Cocos2d
+2019-11-14T02:57:02.088Z - normal: Initializing engine extends
+2019-11-14T02:57:02.105Z - success: alipay-adapter loaded
+2019-11-14T02:57:02.108Z - success: asset-db-debugger loaded
+2019-11-14T02:57:02.109Z - success: baidu-adapter loaded
+2019-11-14T02:57:02.110Z - success: color-picker loaded
+2019-11-14T02:57:02.232Z - success: fb-audience-network loaded
+2019-11-14T02:57:02.285Z - success: fb-live-stream loaded
+2019-11-14T02:57:02.288Z - success: google-play-instant loaded
+2019-11-14T02:57:02.297Z - success: huawei-runtime loaded
+2019-11-14T02:57:02.522Z - success: cpk-publish loaded
+2019-11-14T02:57:02.523Z - success: jsb-adapter loaded
+2019-11-14T02:57:02.528Z - success: oppo-runtime loaded
+2019-11-14T02:57:02.532Z - success: package-manager loaded
+2019-11-14T02:57:02.655Z - success: qqplay-adapter loaded
+2019-11-14T02:57:02.657Z - success: runtime-dev-tools loaded
+2019-11-14T02:57:02.661Z - success: sdkbox loaded
+2019-11-14T02:57:02.665Z - success: tester loaded
+2019-11-14T02:57:02.667Z - success: ui-kit-preview-extra loaded
+2019-11-14T02:57:02.669Z - success: ui-kit-preview loaded
+2019-11-14T02:57:02.671Z - success: ui-kit loaded
+2019-11-14T02:57:02.677Z - success: vivo-runtime loaded
+2019-11-14T02:57:02.678Z - success: weapp-adapter loaded
+2019-11-14T02:57:02.679Z - success: xiaomi-adapter loaded
+2019-11-14T02:57:02.682Z - success: alipay-minigame loaded
+2019-11-14T02:57:02.730Z - success: assets loaded
+2019-11-14T02:57:02.732Z - success: builder loaded
+2019-11-14T02:57:02.989Z - success: cocos-services loaded
+2019-11-14T02:57:02.994Z - success: console loaded
+2019-11-14T02:57:03.028Z - success: fb-instant-games loaded
+2019-11-14T02:57:03.030Z - success: game-window loaded
+2019-11-14T02:57:03.032Z - success: google-instant-games loaded
+2019-11-14T02:57:03.036Z - success: hierarchy loaded
+2019-11-14T02:57:03.039Z - success: inspector loaded
+2019-11-14T02:57:03.040Z - success: keystore loaded
+2019-11-14T02:57:03.044Z - success: node-library loaded
+2019-11-14T02:57:03.046Z - success: package-asset loaded
+2019-11-14T02:57:03.047Z - success: preferences loaded
+2019-11-14T02:57:03.049Z - success: project-exporter loaded
+2019-11-14T02:57:03.051Z - success: project-importer loaded
+2019-11-14T02:57:03.053Z - success: project-settings loaded
+2019-11-14T02:57:03.057Z - success: scene loaded
+2019-11-14T02:57:03.059Z - success: simulator-debugger loaded
+2019-11-14T02:57:03.060Z - success: sprite-editor loaded
+2019-11-14T02:57:03.063Z - success: store loaded
+2019-11-14T02:57:03.067Z - success: timeline loaded
+2019-11-14T02:57:03.073Z - success: xiaomi-runtime loaded
+2019-11-14T02:57:07.387Z - info: Cocos Services load base data!
+2019-11-14T02:57:10.049Z - normal: Loading packages
+2019-11-14T02:57:10.055Z - normal: Watching packages
+2019-11-14T02:57:10.629Z - normal: Run Application
+2019-11-14T02:57:16.159Z - warn: Script attached to "isometric_2" in prefab "grassPrefab.prefab" is missing or invalid. Detailed information:
+Node path: "isometric_2"
+Asset url: "db://assets/Prefabs/grassPrefab.prefab"
+Script UUID: "6e43460c-99c1-411a-b9a0-d77993734c60"
+Class ID: "6e434YMmcFBGrmg13mTc0xg"
+
+2019-11-14T02:57:37.330Z - warn: Script attached to "isometric_2" in prefab "grassPrefab.prefab" is missing or invalid. Detailed information:
+Node path: "isometric_2"
+Asset url: "db://assets/Prefabs/grassPrefab.prefab"
+Script UUID: "6e43460c-99c1-411a-b9a0-d77993734c60"
+Class ID: "6e434YMmcFBGrmg13mTc0xg"
+
+2019-11-14T02:57:37.384Z - warn: Script attached to "isometric_2" in prefab "grassPrefab.prefab" is missing or invalid. Detailed information:
+Node path: "isometric_2"
+Asset url: "db://assets/Prefabs/grassPrefab.prefab"
+Script UUID: "6e43460c-99c1-411a-b9a0-d77993734c60"
+Class ID: "6e434YMmcFBGrmg13mTc0xg"
+
+>>>>>>> 46bbf8c33d449fc4e90886d834b2295ee950c5b8

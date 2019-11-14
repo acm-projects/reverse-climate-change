@@ -1,6 +1,10 @@
 {
   "ver": "2.3.3",
+<<<<<<< HEAD
   "uuid": "424a9667-e768-4892-a213-2a459ec5f0bc",
+=======
+  "uuid": "cf67d9bc-d7c6-4fe1-9cfa-3f36d2b835c3",
+>>>>>>> 46bbf8c33d449fc4e90886d834b2295ee950c5b8
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -11,8 +15,13 @@
   "subMetas": {
     "wavy": {
       "ver": "1.0.4",
+<<<<<<< HEAD
       "uuid": "0db2f99e-1600-4cdf-b852-7ae3b4dccb4d",
       "rawTextureUuid": "424a9667-e768-4892-a213-2a459ec5f0bc",
+=======
+      "uuid": "11d9013e-217c-4f6c-962e-ce78b56d0619",
+      "rawTextureUuid": "cf67d9bc-d7c6-4fe1-9cfa-3f36d2b835c3",
+>>>>>>> 46bbf8c33d449fc4e90886d834b2295ee950c5b8
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
