@@ -1,16 +1,31 @@
 {
+<<<<<<< HEAD
   "ver": "2.3.1",
   "uuid": "a1fc1c06-9c98-4eff-84f4-4faae0a5be33",
+=======
+  "ver": "2.3.3",
+  "uuid": "43f6329c-84b9-4c13-b0b7-65d8be5b0f37",
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+<<<<<<< HEAD
+=======
+  "genMipmaps": false,
+  "packable": true,
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b
   "platformSettings": {},
   "subMetas": {
     "power-plant-wind": {
       "ver": "1.0.4",
+<<<<<<< HEAD
       "uuid": "42024ab8-d5c9-47be-9b4f-2a480ec16f51",
       "rawTextureUuid": "a1fc1c06-9c98-4eff-84f4-4faae0a5be33",
+=======
+      "uuid": "7a678b95-7225-4b5a-88c6-fa264f35d695",
+      "rawTextureUuid": "43f6329c-84b9-4c13-b0b7-65d8be5b0f37",
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

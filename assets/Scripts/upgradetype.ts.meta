@@ -1,6 +1,14 @@
 {
   "ver": "1.0.5",
+<<<<<<< HEAD
   "uuid": "39834790-31c8-48bf-b0c7-a0e9a1905097",
+=======
+<<<<<<< HEAD:assets/Scripts/newscene.ts.meta
+  "uuid": "8e99a2bb-d5f4-453b-ba52-33fd7d7a5829",
+=======
+  "uuid": "39834790-31c8-48bf-b0c7-a0e9a1905097",
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b:assets/Scripts/upgradetype.ts.meta
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b
   "isPlugin": false,
   "loadPluginInWeb": true,
   "loadPluginInNative": true,

@@ -1,10 +1,19 @@
 {
+<<<<<<< HEAD
   "ver": "2.3.1",
+=======
+  "ver": "2.3.3",
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b
   "uuid": "adc8904b-b626-472c-a778-5727acb14b7e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
+<<<<<<< HEAD
+=======
+  "genMipmaps": false,
+  "packable": true,
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b
   "platformSettings": {},
   "subMetas": {
     "wavy": {

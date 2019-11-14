@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "ver": "1.2.0",
+=======
+  "ver": "1.2.1",
+>>>>>>> de333cdfa26e2c9c36ca34c659e6a506c61e4d7b
   "uuid": "ba7efc3c-2518-417d-b82a-1018a251b12a",
   "optimizationPolicy": "AUTO",
   "asyncLoadAssets": false,
