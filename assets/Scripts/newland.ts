@@ -7,7 +7,7 @@ const {ccclass, property} = cc._decorator;
 
 
   onCreateAssets() {
-  	  //cc.sys.localStorage.removeItem('side')
+  	  cc.sys.localStorage.removeItem('side')
   		if(cc.sys.localStorage.getItem('side') === null)
   		{
   			// Instantiate new side nodes for new length of 4
@@ -36,9 +36,9 @@ const {ccclass, property} = cc._decorator;
         	this.node.addChild(newNode5);
         	this.node.addChild(newNode6);
         	this.node.addChild(newNode7);
-        	cc.sys.localStorage.setItem('side', 4);
+        //	cc.sys.localStorage.setItem('side', 4);
 
-          var savedTiles = cc.sys.localStorage.getItem("tiles");
+         // var savedTiles = cc.sys.localStorage.getItem("tiles");
           
         }
         else if(cc.sys.localStorage.getItem('side') == 4)
