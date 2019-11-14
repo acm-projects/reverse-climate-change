@@ -1,12 +1,12 @@
 {
   "963fa21e-fed2-4079-a63d-9a7b7c56e025": {
-    "asset": 1571172991119,
-    "meta": 1570251781497,
+    "asset": 1573700416837,
+    "meta": 1573699787653,
     "relativePath": "Sprites"
   },
   "6bd0a0af-022f-48e9-b31c-6dbd072c1eb2": {
-    "asset": 1569453736883,
-    "meta": 1571166961310,
+    "asset": 1573699787653,
+    "meta": 1573700453925,
     "relativePath": "Sprites\\background.PNG"
   },
   "f8e6b000-5643-4b86-9080-aa680ce1f599": {
@@ -230,53 +230,53 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "adc8904b-b626-472c-a778-5727acb14b7e": {
-    "asset": 1569466174229,
-    "meta": 1571166961704,
+    "asset": 1573700416837,
+    "meta": 1573700454533,
     "relativePath": "Sprites\\wavy.PNG"
   },
   "ddda278a-19fe-4167-97f4-a511ea6401fa": {
-    "asset": 1569892567905,
-    "meta": 1571166961518,
+    "asset": 1573699787688,
+    "meta": 1573700454189,
     "relativePath": "Sprites\\grass.png"
   },
   "875e6067-7e40-4a0c-a4b0-b8aaa2aed867": {
-    "asset": 1569892571302,
-    "meta": 1571166961534,
+    "asset": 1573699787680,
+    "meta": 1573700454209,
     "relativePath": "Sprites\\city-medium-density.png"
   },
   "44914e90-bd7f-418d-83f6-cd622e3f2622": {
-    "asset": 1569892573191,
-    "meta": 1571166961418,
+    "asset": 1573699787672,
+    "meta": 1573700454097,
     "relativePath": "Sprites\\city-low-density.png"
   },
   "b7fdbd4b-20a9-4117-8516-e33646db707f": {
-    "asset": 1569892574976,
-    "meta": 1571166961401,
+    "asset": 1573699787664,
+    "meta": 1573700454081,
     "relativePath": "Sprites\\city-high-density.png"
   },
   "5716111a-48c2-4692-871f-3c723013c631": {
-    "asset": 1569892576931,
-    "meta": 1571166961655,
+    "asset": 1573699787704,
+    "meta": 1573700454485,
     "relativePath": "Sprites\\smog-light.png"
   },
   "07f6375c-278d-4e0a-8ec4-6f0dfdd38b07": {
-    "asset": 1569892578478,
-    "meta": 1571166961764,
+    "asset": 1573699787712,
+    "meta": 1573700454505,
     "relativePath": "Sprites\\smog-medium.png"
   },
   "47ee992c-8091-4339-ab25-45078c2f970a": {
-    "asset": 1569892579838,
-    "meta": 1571166961637,
+    "asset": 1573699787696,
+    "meta": 1573700454397,
     "relativePath": "Sprites\\smog-intense.png"
   },
   "e2c5d353-be2d-4808-95d6-19e7fbc2ae8e": {
-    "asset": 1573085476580,
-    "meta": 1571171244140,
+    "asset": 1573700451949,
+    "meta": 1573699787645,
     "relativePath": "Scripts"
   },
   "ad18d12c-176b-47b7-87e2-41f29ed367f3": {
-    "asset": 1573086856850,
-    "meta": 1570668699322,
+    "asset": 1573700416830,
+    "meta": 1573699787637,
     "relativePath": "Prefabs"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
@@ -424,11 +424,6 @@
     "meta": 1571775201123,
     "relativePath": "resources\\effects\\builtin-2d-sprite.effect"
   },
-  "c0040c95-c57f-49cd-9cbc-12316b73d0d4": {
-    "asset": 1568754182000,
-    "meta": 1571775201143,
-    "relativePath": "resources\\effects\\builtin-clear-stencil.effect"
-  },
   "79eafaef-b7ef-45d9-9c3f-591dc836fc7a": {
     "asset": 1568754182000,
     "meta": 1571775201170,
@@ -480,98 +475,223 @@
     "relativePath": "model\\primitives.fbx"
   },
   "ea7b7b6c-159b-4f41-b204-c376183cdceb": {
-    "asset": 1573088584107,
-    "meta": 1573088584138,
+    "asset": 1573700416830,
+    "meta": 1573700452535,
     "relativePath": "Prefabs\\isometric_9.prefab"
   },
   "b55cee4a-fcf7-42f6-8677-222c750c5f3f": {
-    "asset": 1573068252325,
-    "meta": 1573068252344,
+    "asset": 1573700416826,
+    "meta": 1573700452519,
     "relativePath": "Prefabs\\High_city copy.prefab"
   },
   "ba7efc3c-2518-417d-b82a-1018a251b12a": {
-    "asset": 1573068299860,
-    "meta": 1573068299877,
+    "asset": 1573700416826,
+    "meta": 1573700452801,
     "relativePath": "Prefabs\\Mid_city copy.prefab"
   },
   "9c63d93f-a9e0-429b-9da7-4dbef7f3ed0b": {
-    "asset": 1573068288900,
-    "meta": 1573068288923,
+    "asset": 1573700416826,
+    "meta": 1573700452549,
     "relativePath": "Prefabs\\Low_city copy.prefab"
   },
   "8592a87d-4916-4a7b-9b04-1e2ef16e41ff": {
-    "asset": 1573097231228,
-    "meta": 1573097231261,
+    "asset": 1573700416837,
+    "meta": 1573699787760,
     "relativePath": "try one.fire"
-  },
-  "d4f33300-5799-4038-9e99-0f28e0aab460": {
-    "asset": 1571855955039,
-    "meta": 1571855955061,
-    "relativePath": "Menu_scene.fire"
   },
   "8e99a2bb-d5f4-453b-ba52-33fd7d7a5829": {
     "asset": 1571698399900,
-    "meta": 1571698401286,
+    "meta": 1573700453753,
     "relativePath": "Scripts\\newscene.ts"
-  },
-  "c97647a4-43aa-4bfd-83d4-e582134b02a7": {
-    "asset": 1573096200095,
-    "meta": 1573096200128,
-    "relativePath": "Prefabs\\Menunode.prefab"
   },
   "f7c56c4b-e72c-495a-a3d0-56a2a5d0833a": {
     "asset": 1571855632618,
-    "meta": 1571855634134,
+    "meta": 1573700452743,
     "relativePath": "Scripts\\add button.ts"
   },
   "70ab36d0-ca05-4e3b-9066-a7afcccedeaa": {
     "asset": 1571855729215,
-    "meta": 1571855730711,
+    "meta": 1573700453526,
     "relativePath": "Scripts\\Menu buttons.ts"
   },
   "cdbcef29-58cc-48cf-ac0d-9652202621fd": {
-    "asset": 1571878495846,
-    "meta": 1571878498708,
+    "asset": 1571269123738,
+    "meta": 1573700453765,
     "relativePath": "Scripts\\Touchmove.js"
   },
   "8858b37f-56e5-4233-9df6-55e7a54425bd": {
     "asset": 1572488146216,
-    "meta": 1572488147443,
+    "meta": 1573700453455,
     "relativePath": "Scripts\\exit.ts"
   },
   "8695e469-b037-408f-b748-16b53e18df86": {
     "asset": 1573067245992,
-    "meta": 1573067249352,
+    "meta": 1573700453259,
     "relativePath": "Scripts\\canvasclick.ts"
   },
   "dbd87ec9-5ef5-4ebd-8950-6fc1877809ec": {
     "asset": 1573069803760,
-    "meta": 1573069805706,
+    "meta": 1573700453487,
     "relativePath": "Scripts\\menu buttons newland.ts"
-  },
-  "e5bd0da3-e6ed-40e0-849f-b250dcc1405e": {
-    "asset": 1573095784191,
-    "meta": 1573095784234,
-    "relativePath": "Prefabs\\upgrade layout.prefab"
   },
   "39834790-31c8-48bf-b0c7-a0e9a1905097": {
     "asset": 1573087600968,
-    "meta": 1573087602441,
+    "meta": 1573700453781,
     "relativePath": "Scripts\\upgradetype.ts"
   },
   "361c5bb8-e0ad-4e9a-b8f9-d64f0e4974f0": {
     "asset": 1573088893022,
-    "meta": 1573088893992,
+    "meta": 1573700453475,
     "relativePath": "Scripts\\Landupgradebutton.ts"
   },
   "a819e7b3-c959-4499-a7f5-625b5a83c7f4": {
-    "asset": 1573088942990,
-    "meta": 1573088944011,
+    "asset": 1573700416833,
+    "meta": 1573700453701,
     "relativePath": "Scripts\\newland.ts"
   },
+  "5513dc14-a606-425c-bcef-5610b5c41d02": {
+    "asset": 1573699787728,
+    "meta": 1573700452357,
+    "relativePath": "city-low-density.png"
+  },
+  "b99218b4-65b8-45c8-82b3-05ec6bfe721d": {
+    "asset": 1573699787720,
+    "meta": 1573700452379,
+    "relativePath": "city-high-density.png"
+  },
+  "4b539719-9f54-451a-a729-d19b28726ae2": {
+    "asset": 1573699787740,
+    "meta": 1573700452469,
+    "relativePath": "grass.png"
+  },
+  "b40587a0-fc5a-4a27-a7ed-fc170839c85b": {
+    "asset": 1573699787736,
+    "meta": 1573700452485,
+    "relativePath": "city-medium-density.png"
+  },
+  "9f732d39-f1fd-4c9a-9f01-1752a86af338": {
+    "asset": 1573700452497,
+    "meta": 1573700452507,
+    "relativePath": "Prefabs\\grassPrefab.prefab"
+  },
+  "f998c326-05ae-4aaf-92e1-2f499b3c9868": {
+    "asset": 1573700416822,
+    "meta": 1573700452523,
+    "relativePath": "Prefabs\\HighCity.prefab"
+  },
+  "425ce947-2fd1-4938-9281-4fd624668a5a": {
+    "asset": 1573700416830,
+    "meta": 1573700453082,
+    "relativePath": "Scripts\\addbutton.ts"
+  },
+  "019bfbfc-f1a2-46b5-bab8-c66641790bda": {
+    "asset": 1573699787645,
+    "meta": 1573700453122,
+    "relativePath": "Scripts\\AutoClicker.js"
+  },
+  "2e982a11-95d6-4ddb-8b0a-98f59116e2cf": {
+    "asset": 1573700416830,
+    "meta": 1573700453215,
+    "relativePath": "Scripts\\backcript.ts"
+  },
+  "3cc7141d-09d2-454a-8167-3dc4155f6737": {
+    "asset": 1573699787645,
+    "meta": 1573700453353,
+    "relativePath": "Scripts\\City.js"
+  },
+  "ec10f9aa-17e0-4c2b-a7db-a55fbee624ea": {
+    "asset": 1573699787645,
+    "meta": 1573700453381,
+    "relativePath": "Scripts\\Clicker.js"
+  },
+  "36e5467c-ba49-45ae-878d-bb91190e6e0c": {
+    "asset": 1573700416833,
+    "meta": 1573700453431,
+    "relativePath": "Scripts\\destroy.ts"
+  },
+  "adcb13dc-1014-44ed-9b29-04cb1d7d8eae": {
+    "asset": 1573699787649,
+    "meta": 1573699787649,
+    "relativePath": "Scripts\\moneyCarbFoot.js"
+  },
+  "d735ebe0-0a58-4b40-a5de-4a682ed7275b": {
+    "asset": 1573699787649,
+    "meta": 1573700453682,
+    "relativePath": "Scripts\\moneyLabel.js"
+  },
+  "984add91-a44e-4149-a477-4707f6399eab": {
+    "asset": 1573699787752,
+    "meta": 1573700453880,
+    "relativePath": "smog-light.png"
+  },
+  "3675cca2-e199-43fb-b943-b1ad62319a92": {
+    "asset": 1573699787748,
+    "meta": 1573700453897,
+    "relativePath": "smog-intense.png"
+  },
+  "191dc1be-9d09-4c5a-befb-71a357a0abcf": {
+    "asset": 1573699787653,
+    "meta": 1573700453949,
+    "relativePath": "Sprites\\buildingTiles_030.png"
+  },
+  "060d0fb9-e5c7-48c0-8a44-281785a85cc2": {
+    "asset": 1573699787657,
+    "meta": 1573700453973,
+    "relativePath": "Sprites\\buildingTiles_073.png"
+  },
+  "8f743f63-5f63-40a3-843d-7b61189f93a3": {
+    "asset": 1573699787760,
+    "meta": 1573700453993,
+    "relativePath": "smog-medium.png"
+  },
+  "f259cb33-4c12-41ff-a4cf-00fa9b9abfae": {
+    "asset": 1573699787688,
+    "meta": 1573700454297,
+    "relativePath": "Sprites\\isometric_0014.png"
+  },
+  "ba1b81d5-bd1d-42d6-bd29-6dca4fbb2bfd": {
+    "asset": 1573688863109,
+    "meta": 1573700454313,
+    "relativePath": "Sprites\\power-plant-nuclear.png"
+  },
+  "43f6329c-84b9-4c13-b0b7-65d8be5b0f37": {
+    "asset": 1573689275550,
+    "meta": 1573700454409,
+    "relativePath": "Sprites\\power-plant-wind.png"
+  },
+  "424a9667-e768-4892-a213-2a459ec5f0bc": {
+    "asset": 1573699787760,
+    "meta": 1573700454541,
+    "relativePath": "wavy.PNG"
+  },
+  "666a5a00-24ed-4843-9801-da2acd7446f4": {
+    "asset": 1573689441026,
+    "meta": 1573700633511,
+    "relativePath": "Prefabs\\power-plant-nuclear.prefab"
+  },
+  "c97647a4-43aa-4bfd-83d4-e582134b02a7": {
+    "asset": 1573096200095,
+    "meta": 1573700633523,
+    "relativePath": "Prefabs\\Menunode.prefab"
+  },
+  "11d280b7-b595-4847-ba5b-32fe399ff6f5": {
+    "asset": 1573691036564,
+    "meta": 1573700633531,
+    "relativePath": "Prefabs\\power-plant-wind.prefab"
+  },
   "971ba590-720c-4661-92c6-b4f8bcc8871e": {
-    "asset": 1573096965062,
-    "meta": 1573096965080,
+    "asset": 1573689523198,
+    "meta": 1573700633539,
     "relativePath": "Prefabs\\the land menu.prefab"
+  },
+  "e5bd0da3-e6ed-40e0-849f-b250dcc1405e": {
+    "asset": 1573095784191,
+    "meta": 1573700633551,
+    "relativePath": "Prefabs\\upgrade layout.prefab"
+  },
+  "c0040c95-c57f-49cd-9cbc-12316b73d0d4": {
+    "asset": 1568754182000,
+    "meta": 1573700682019,
+    "relativePath": "resources\\effects\\builtin-clear-stencil.effect"
   }
 }
