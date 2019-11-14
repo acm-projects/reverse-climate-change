@@ -36,6 +36,8 @@ cc.Class({
     // start () {},
 
     update (dt) {
-        this.node.getComponent(cc.Label).string = "Energy Output:" + cc.sys.localStorage.getItem("energyoutput");
+        var enerOutput = cc.sys.localStorage.getItem("energyoutput"); 
+
+        this.node.getComponent(cc.Label).string = "Energy Output:" + Math.round(enerOutput);
     },
 });

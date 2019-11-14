@@ -13,14 +13,14 @@ cc.Class({
 
     properties: {
 
-        enerOutputRate: 50,
+        enerOutputRate: 0,
 
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        cc.sys.localStorage.getItem()
+        cc.sys.localStorage.setItem("energyoutput", 0);
     },
 
     // start () {},

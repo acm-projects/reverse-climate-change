@@ -15,7 +15,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
-        cc.sys.localStorage.getItem();
+        cc.sys.localStorage.setItem("money", 0);
         //Check if money key exists
         // If not set at 0
     },
