@@ -10,9 +10,9 @@ export default class NewClass extends cc.Component {
     onCreateAssets() {
         let newNode = cc.instantiate(this.prefab);
 
-        newNode.setPosition(cc.find('Grass').x,cc.find('Grass').y);
+        newNode.setPosition(cc.find('Canvas/land9').x,cc.find('Canvas/land9').y);
 
-       cc.find('NewScript').addChild(newNode);
+       cc.find('Canvas').addChild(newNode);
         
   }
 
@@ -20,8 +20,9 @@ export default class NewClass extends cc.Component {
         this.button.node.on('click', (event) => {
             console.log('CLICK');
             this.onCreateAssets();
-            cc.find('Grass').active = false;
+            cc.find('Canvas/land9').active = false;
            this.node.removeAllChildren
+           cc.log("cc.find('NewScript')");
     });
 
     }

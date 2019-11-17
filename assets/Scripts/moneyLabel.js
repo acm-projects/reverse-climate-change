@@ -29,6 +29,6 @@ cc.Class({
     },
 
     update (dt) {
-        cc.find('Canvas/money').getComponent(cc.Label).string = "$" + cc.sys.localStorage.getItem("money");
+        cc.find('Canvas/money').getComponent(cc.Label).string = "$" + Math.round(cc.sys.localStorage.getItem("money"));
     },
 });
