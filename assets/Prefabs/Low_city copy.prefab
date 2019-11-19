@@ -74,7 +74,23 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": ""
+    "_id": "",
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float32Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.20000000298023224,
+        0.20000000298023224,
+        1
+      ]
+    }
   },
   {
     "__type__": "cc.Sprite",

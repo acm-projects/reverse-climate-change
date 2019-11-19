@@ -11,7 +11,7 @@ const {ccclass, property} = cc._decorator;
         this.button.node.on('click', (event) => {
              console.log('CLICK');
 
-       cc.director.loadScene('try one');
+       cc.director.loadScene('newscene');
         
     });
     }

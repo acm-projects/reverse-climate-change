@@ -36,7 +36,7 @@ const {ccclass, property} = cc._decorator;
         	this.node.addChild(newNode5);
         	this.node.addChild(newNode6);
         	this.node.addChild(newNode7);
-        //	cc.sys.localStorage.setItem('side', 4);
+         // cc.sys.localStorage.setItem('side', 4);
 
          // var savedTiles = cc.sys.localStorage.getItem("tiles");
           
