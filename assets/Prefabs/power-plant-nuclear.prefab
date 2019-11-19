@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "High_city copy",
+    "_name": "power-plant-nuclear",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -41,12 +41,12 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 436,
-      "height": 600
+      "height": 628
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": -0.00016055045871554013,
+      "y": 0.000015923566878979403
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
@@ -63,8 +63,8 @@
       "__type__": "TypedArray",
       "ctor": "Float32Array",
       "array": [
-        0,
-        0,
+        -43.59000015258789,
+        -62.7599983215332,
         0,
         0,
         0,
@@ -92,7 +92,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "dde68e40-1c96-468b-b1e3-aea0a9e8ae3f"
+      "__uuid__": "0b44dab9-c6ba-4789-8bee-eb6b7976ba2a"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -124,9 +124,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "b55cee4a-fcf7-42f6-8677-222c750c5f3f"
+      "__uuid__": "666a5a00-24ed-4843-9801-da2acd7446f4"
     },
-    "fileId": "807HcIsllB9qmKe9hbvJoX",
+    "fileId": "d8AK7sGRlFiLiJWIbrmYy8",
     "sync": false
   }
 ]

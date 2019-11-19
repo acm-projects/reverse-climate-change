@@ -17,8 +17,8 @@ const {ccclass, property} = cc._decorator;
   }
     start () {
         
-        this.node.on('touchend', (event) => {
-            
+        this.button.node.on('click', (event) => {
+            console.log("hello sir");
             this.onCreateAssets();
            
            

@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "High_city copy",
+    "_name": "power-plant-wind",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -41,12 +41,12 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 436,
-      "height": 600
+      "height": 608
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": 1.6479873021779667e-17,
+      "y": -1.623592753297043e-17
     },
     "_eulerAngles": {
       "__type__": "cc.Vec3",
@@ -63,8 +63,8 @@
       "__type__": "TypedArray",
       "ctor": "Float32Array",
       "array": [
-        0,
-        0,
+        -43.584999084472656,
+        -60.805999755859375,
         0,
         0,
         0,
@@ -92,7 +92,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "dde68e40-1c96-468b-b1e3-aea0a9e8ae3f"
+      "__uuid__": "7a678b95-7225-4b5a-88c6-fa264f35d695"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -124,9 +124,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "b55cee4a-fcf7-42f6-8677-222c750c5f3f"
+      "__uuid__": "11d280b7-b595-4847-ba5b-32fe399ff6f5"
     },
-    "fileId": "807HcIsllB9qmKe9hbvJoX",
+    "fileId": "8dkKLUCmVNfo/ufDXnwvI1",
     "sync": false
   }
 ]
