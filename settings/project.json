@@ -1,20 +1,32 @@
 {
-  "start-scene": "current",
-  "group-list": [
-    "default"
-  ],
+  "assets-sort-type": "name",
   "collision-matrix": [
     [
       true
     ]
   ],
+  "design-resolution-height": 640,
+  "design-resolution-width": 960,
   "excluded-modules": [
     "Geom Utils",
     "3D",
     "3D Primitive"
   ],
-  "design-resolution-width": 960,
-  "design-resolution-height": 640,
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "start-scene": "current",
+  "group-list": [
+    "default"
+  ],
+  "last-module-event-record-time": 0,
   "fit-width": false,
   "fit-height": true,
   "use-project-simulator-setting": false,
@@ -23,17 +35,5 @@
   "simulator-resolution": {
     "width": 960,
     "height": 640
-  },
-  "last-module-event-record-time": 0,
-  "assets-sort-type": "name",
-  "facebook": {
-    "enable": false,
-    "appID": "",
-    "live": {
-      "enable": false
-    },
-    "audience": {
-      "enable": false
-    }
   }
 }

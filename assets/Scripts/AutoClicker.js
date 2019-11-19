@@ -4,14 +4,14 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        moneyRate: 0.5,
-    
+        badMoneyRate: 0,
+        goodMoneyRate: 0,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        cc.sys.localStorage.getItem()
+        cc.sys.localStorage.setItem("money", 0);
         //Check if money key exist
         // If not set at 0
     },
@@ -36,15 +36,12 @@ cc.Class({
         }
         else 
         {
-            money += this.moneyRate;
+            money += this.goodMoneyRate;
             cc.sys.localStorage.setItem("money", money);
         }
 
     },
 
-    setMoneyRate: function setMoneyRate(moneyRate) {
-        this.moneyRate = moneyRate;
-    }
-
 });
+
 
