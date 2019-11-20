@@ -11,7 +11,7 @@ const {ccclass, property} = cc._decorator;
   		if(cc.sys.localStorage.getItem('side') === null)
   		{
   			// Instantiate new side nodes for new length of 4
-       		let newNode = cc.instantiate(this.prefab);
+       	
         	let newNode2 = cc.instantiate(this.prefab);
         	let newNode3 = cc.instantiate(this.prefab);
         	let newNode4 = cc.instantiate(this.prefab);
@@ -20,8 +20,7 @@ const {ccclass, property} = cc._decorator;
         	let newNode7 = cc.instantiate(this.prefab);
 
         	// Set the positions for each new side node
-        	newNode.setPosition(-98.799 - 50, -43.613 + 50);
-        	newNode2.setPosition(-57.622 - 50, -63.647 + 50);
+        	        	newNode2.setPosition(-57.622 - 50, -63.647 + 50);
        		newNode3.setPosition(-15.951 - 50, -84.629 + 50);
         	newNode4.setPosition(116.1675 + 41.8445 - 50, -47.889 + 50);
         	newNode5.setPosition(115.1675 - 50,-66.584 + 50)
@@ -29,7 +28,7 @@ const {ccclass, property} = cc._decorator;
       		newNode7.setPosition(26.007 - 50, -105.148 + 50);
 
       		
-        	this.node.addChild(newNode);
+        
         	this.node.addChild(newNode2);
         	this.node.addChild(newNode3);
         	this.node.addChild(newNode4);

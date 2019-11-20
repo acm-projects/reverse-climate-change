@@ -74,23 +74,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "",
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float32Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0.20000000298023224,
-        0.20000000298023224,
-        1
-      ]
-    }
+    "_id": ""
   },
   {
     "__type__": "cc.Sprite",
@@ -125,13 +109,14 @@
     "_id": ""
   },
   {
-    "__type__": "cdbce8pWMxIz6wNllIgJiH9",
+    "__type__": "019bfv88aJGtbq4xmZBeQva",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 1
     },
     "_enabled": true,
+    "moneyRate": 0.5,
     "_id": ""
   },
   {

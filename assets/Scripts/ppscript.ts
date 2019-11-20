@@ -1,31 +1,31 @@
+
 const {ccclass, property} = cc._decorator;
 
-@ccclass export default class Canvas extends cc.Component {
+@ccclass
+export default class NewClass extends cc.Component {
 
     @property(cc.Prefab) prefab: cc.Prefab = null;
     @property(cc.Button) button: cc.Button = null;
-    
 
-
-  onCreateAssets() {
+    onCreateAssets() {
         let newNode = cc.instantiate(this.prefab);
 
-        newNode.setPosition(100,200);
+        newNode.setPosition(-98.799 - 50, -43.613 + 50);
 
-       cc.find('NewScript').addChild(newNode);
-        
+       cc.find('Canvas').addChild(newNode);
+
   }
+
     start () {
-        
         this.button.node.on('click', (event) => {
-            console.log("hello sir");
+            console.log('CLICK');
             this.onCreateAssets();
-           
-           
-        });
+            
+           this.node.removeAllChildren
+           cc.log("cc.find('NewScript')");
+    });
+
     }
 
-    update() { }
 
-  
 }
